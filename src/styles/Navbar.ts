@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'react-router-dom';
 
 export const Nav = styled.nav`
     background-color: #043873;
@@ -10,11 +11,12 @@ export const Nav = styled.nav`
     box-sizing: border-box;
 `;
 
-export const H3 = styled.h3`
+export const Img = styled.img`
     /* color: #333; */
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     margin: 0;
     padding: 0;
+    padding-right: 20vw;
 `;
 
 export const Ul = styled.ul`
@@ -52,6 +54,10 @@ export const Button_try = styled.div`
     transition: background-color 0.3s;
     &:hover {
         background-color:rgb(57, 116, 188);
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
     }
 `;
 
