@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Work from './components/Work-management';
 
 function App() {
   return (
     <div>
     <Navbar />
     <Header />
+    <Work />
     </div>
   )
 }

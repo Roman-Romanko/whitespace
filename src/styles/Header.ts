@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import Element from '../assets/Element.png';
 
 export const Container = styled.header`
-    background: #043873 url(${Element}) no-repeat center center;
-    background-size: cover;
+    background: #043873 url(${Element}) no-repeat center;
+    background-position-x: -8vw;
+    /* background-size: cover; */
     color: #fff;
     display: flex;
     align-items: center;
@@ -27,6 +28,7 @@ export const Text = styled.div`
     width: 50vw;
     height: 60vh;
     margin-left: 5vw;
+    margin-bottom: 5vh;
 `;
 
 export const H1 = styled.h1`
