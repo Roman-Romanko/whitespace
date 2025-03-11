@@ -61,3 +61,23 @@ export const Img = styled.img`
     margin-right: 5vw;
     /* padding-right: 5vw; */
 `;
+
+export const Container1 = styled.div`
+background: #fff no-repeat left;
+    /* background-position-x: -5vw; */
+    /* background-color: #fff; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100vw;
+    height: 85vh;
+    box-sizing: border-box;
+`;
+
+export const Img1 = styled.img`
+    width: 45vw;
+    height: 60vh;
+    margin-left: 5vw;
+    /* padding-right: 5vw; */
+`;
