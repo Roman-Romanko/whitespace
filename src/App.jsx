@@ -5,13 +5,15 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Work from './components/Work-management';
+import Customize from './components/Customize';
 
 function App() {
   return (
     <div>
-    <Navbar />
-    <Header />
-    <Work />
+      <Navbar />
+      <Header />
+      <Work />
+      <Customize />
     </div>
   )
 }

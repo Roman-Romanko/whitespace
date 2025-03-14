@@ -5,7 +5,7 @@ import OrbitAnimation from "./Orbit";
 
 function Work(params) {
     return (
-        <div>
+        <div style={{paddingBottom: "10vh", backgroundColor: "white", width: "100vw"}}>
             <Container>
                 <Text>
                     <H1>Project Management</H1>
@@ -25,7 +25,7 @@ function Work(params) {
                     <H1>Project Management</H1>
                     <img src={Element1} alt="" />
                     <P>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</P>
-                    <Started>Get Started</Started>
+                    <Started>Work together</Started>
                 </Text>
             </Container1>
         </div>
