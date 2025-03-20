@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Work from './components/Work-management';
 import Customize from './components/Customize';
+import CustomPrice from './components/Customise_price';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Work />
       <Customize />
+      <CustomPrice />
     </div>
   )
 }
