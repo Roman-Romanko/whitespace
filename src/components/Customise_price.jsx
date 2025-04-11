@@ -2,7 +2,7 @@ import { Container, H1, Image, P, Text, Started, ArrowRight } from "../styles/Cu
 import Element from '../assets/ImageContainer.png'
 import Element1 from '../assets/Element1.png'
 
-function CustomPrice() {
+function CustomisePrice() {
     return (
         <Container>
             <Image src={Element} />
@@ -16,4 +16,4 @@ function CustomPrice() {
     )
 }
 
-export default CustomPrice;
+export default CustomisePrice;
